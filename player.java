@@ -13,8 +13,13 @@ public class Player {
     public int getAge() { return age; }
     public String getPosition() { return position; }
 
+    # Nuevo método transfer 
+    public void transfer(String teamName) {
+        System.out.println(name + " ha sido transferido al equipo " + teamName);
+    }
+
     @Override
     public String toString() {
-        return name + " (" + position + ", " + age + " years)";
+        return name + " (" + position + ", " + age + " años)";
     }
 }
