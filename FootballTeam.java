@@ -32,7 +32,7 @@ public class FootballTeam {
         sc.nextLine();
 
         FootballTeam equipo = new FootballTeam(nombre, trofeos);
-        System.out.println("✅ Equipo creado: " + nombre + " con " + trofeos + " trofeos.");
+        System.out.println(" Equipo creado: " + nombre + " con " + trofeos + " trofeos.");
         equipo.showRoster();
     }
 }
