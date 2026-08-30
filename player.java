@@ -16,8 +16,8 @@ public class Player extends Person {
 
     public void retire() {
         retired = true;
-        System.out.println("⚽ El jugador " + name + " se ha retirado.");
-        System.out.println("📊 Estadísticas finales: " + goals + " goles, " + assists + " asistencias.");
+        System.out.println("El jugador " + name + " se ha retirado.");
+        System.out.println("Estadísticas finales: " + goals + " goles, " + assists + " asistencias.");
     }
 
     @Override
@@ -37,6 +37,6 @@ public class Player extends Person {
         String posicion = sc.nextLine();
 
         Player jugador = new Player(nombre, edad, posicion);
-        System.out.println("✅ Jugador creado: " + jugador);
+        System.out.println(" Jugador creado: " + jugador);
     }
 }
