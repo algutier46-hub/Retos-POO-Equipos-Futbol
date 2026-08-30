@@ -23,8 +23,8 @@ public class Main {
                 case 3 -> FootballTeam.crearEquipo();
                 case 4 -> ClubTeam.crearClubConEstadio();
                 case 5 -> Match.crearPartido();
-                case 0 -> System.out.println("👋 Saliendo del programa...");
-                default -> System.out.println("❌ Opción inválida.");
+                case 0 -> System.out.println("Saliendo del programa...");
+                default -> System.out.println("Opción inválida.");
             }
         } while (opcion != 0);
 
