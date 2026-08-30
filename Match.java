@@ -1,3 +1,4 @@
+import java.util.Scanner;
 import java.util.Random;
 
 public class Match {
@@ -9,10 +10,9 @@ public class Match {
         this.team2 = team2;
     }
 
-    // Método play que simula un partido
     public void play() {
         Random random = new Random();
-        int score1 = random.nextInt(5); // goles aleatorios entre 0 y 4
+        int score1 = random.nextInt(5);
         int score2 = random.nextInt(5);
 
         System.out.println("Partido: " + team1.getName() + " vs " + team2.getName());
@@ -25,5 +25,28 @@ public class Match {
         } else {
             System.out.println("Empate");
         }
+    }
+
+    // Método estático para creación interactiva
+    public static void crearPartido() {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Nombre del primer equipo: ");
+        String nombre1 = sc.nextLine();
+        System.out.print("Trofeos del primer equipo: ");
+        int trofeos1 = sc.nextInt();
+        sc.nextLine();
+
+        FootballTeam equipo1 = new FootballTeam(nombre1, trofeos1);
+
+        System.out.print("Nombre del segundo equipo: ");
+        String nombre2 = sc.nextLine();
+        System.out.print("Trofeos del segundo equipo: ");
+        int trofeos2 = sc.nextInt();
+        sc.nextLine();
+
+        FootballTeam equipo2 = new FootballTeam(nombre2, trofeos2);
+
+        Match partido = new Match(equipo1, equipo2);
+        partido.play();
     }
 }
