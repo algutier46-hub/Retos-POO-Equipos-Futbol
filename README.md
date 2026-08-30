@@ -1,5 +1,5 @@
 # Retos-POO-Equipos-Futbol
-Retos de Programación Orientada a Objetos centrados en equipos de fútbol. Autores: alexander gutierrez, Grey Cuellar, Daniel Sandobal.
+Retos de Programación Orientada a Objetos centrados en equipos de fútbol. Autores: alexander gutierrez, Grey Cuellar, Daniel Sandoval.
 Proyecto: Sistema de Gestión de Fútbol con POO en Java
 Este proyecto implementa un sistema básico de gestión de fútbol utilizando Programación Orientada a Objetos (POO) en Java. Se aplican conceptos de herencia, composición y encapsulamiento, organizando las clases en un diseño modular y funcional.
 
