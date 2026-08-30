@@ -62,7 +62,7 @@ public class ClubTeam {
         Player jugador = new Player(nombreJugador, edadJugador, posicion);
         club.signPlayer(jugador);
 
-        System.out.println("✅ Club creado con estadio y jugador:");
+        System.out.println(" Club creado con estadio y jugador:");
         club.showRoster();
     }
 }
