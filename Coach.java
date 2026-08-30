@@ -25,7 +25,7 @@ public class Coach extends Person {
         sc.nextLine();
 
         Coach coach = new Coach(nombre, edad, exp);
-        System.out.println("✅ Entrenador creado: " + coach);
+        System.out.println("Entrenador creado: " + coach);
     }
 }
 
