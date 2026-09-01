@@ -27,7 +27,7 @@ public class Match {
         }
     }
 
-    // Método estático para creación interactiva
+   
     public static void crearPartido() {
         Scanner sc = new Scanner(System.in);
         System.out.print("Nombre del primer equipo: ");
