@@ -9,12 +9,12 @@ public class League {
         this.teams = new ArrayList<>();
     }
 
-    // Método para agregar equipos
+   
     public void addTeam(FootballTeam team) {
         teams.add(team);
     }
 
-    // Método para mostrar la clasificación
+    
     public void showStandings() {
         System.out.println("Clasificación de la liga: " + name);
         for (int i = 0; i < teams.size(); i++) {
