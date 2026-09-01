@@ -34,7 +34,7 @@ public class ClubTeam {
         }
     }
 
-    // Método estático para creación interactiva
+  
     public static void crearClubConEstadio() {
         Scanner sc = new Scanner(System.in);
         System.out.print("Nombre del club: ");
