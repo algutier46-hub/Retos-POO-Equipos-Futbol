@@ -13,7 +13,7 @@ public class Coach extends Person {
         return "Coach: " + name + " (" + experienceYears + " años de experiencia)";
     }
 
-    // Método estático para creación interactiva
+    
     public static void crearCoach() {
         Scanner sc = new Scanner(System.in);
         System.out.print("Nombre del entrenador: ");
