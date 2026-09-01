@@ -22,7 +22,7 @@ public class FootballTeam {
         for (Player p : players) System.out.println(p);
     }
 
-    // Método estático para creación interactiva
+    
     public static void crearEquipo() {
         Scanner sc = new Scanner(System.in);
         System.out.print("Nombre del equipo: ");
